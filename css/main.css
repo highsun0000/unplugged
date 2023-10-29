@@ -97,16 +97,26 @@ header{
  justify-content: center;
 }
 
+.header-devider {
+  width: 60%;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  
+}
+
+.header nav {
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 50%;
 }
 
 footer {
@@ -114,6 +124,10 @@ footer {
  flex-direction: column;
  align-items: center;
  text-align: center;
+}
+
+.footer .content-wrapper {
+  width: 55%;
 }
 
 footer .social-icons {
@@ -131,14 +145,14 @@ footer .social-icons p {
 /*------------ Mobile Styles - Hompage ------------*/
 /* Hero - Area */
 
-.hero-area {
+.Hero-area {
   display: flex;
  justify-content: center;
 }
 
 /* Aside */
 
-.aside {
+ aside {
   display: flex;
  justify-content: center;
 }
@@ -155,6 +169,7 @@ footer .social-icons p {
  justify-content: center;
  align-items: flex-start;
  flex-flow: row wrap;
+ width: 60%;
 }
 
 /* reviews */
@@ -162,6 +177,10 @@ footer .social-icons p {
 .reviews {
   display: flex;
  justify-content: center;
+}
+
+h3 {
+  width: 50%;
 }
 
 /*------------ About Page ------------*/
