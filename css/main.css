@@ -490,7 +490,58 @@ justify-content: center;
 
 @media only scren and (min-width:1200px){
   /*Descktop styles here*/
-}
+
+  /* General Styles */
+
+ .content-wrapper {
+   max-width: 960px;
+  }
+
+  /*--- Header ---*/
+  header {
+    padding: 15px 0;
+  }
+
+  /*Hero*/
+  .Hero-area h1 {
+    width: 80%;
+  }
+
+  /*aside*/
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+   aside .content-wrapper .form {
+    width: 30%;
+   }
+
+   /*Features*/
+   .features h2 {
+    width: 90%;
+   }
+
+   .features article {
+    flex-basis: 33%;
+   }
+   /*Reviews*/
+   .reviews article div {
+    width:42%
+   }
+
+   /*----------- About Page -----------*/
+   .mission h2,
+    .contact-section, .content-wrapper h2 {
+      width: 95%;
+    } 
+
+    /*----------- FAQ ------------*/
+    .faq h2 {
+      width: 100%;
+    }
+  }
+  
 
 /* ==========================================================================
    Print styles.
