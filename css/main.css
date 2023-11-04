@@ -373,7 +373,7 @@ justify-content: center;
 
   /*Header*/
   header {
-    padding: 33% 0;
+    padding: 33px 0;
   }
 
   header .content-wrapper {
@@ -488,7 +488,7 @@ justify-content: center;
    }
 }
 
-@media only scren and (min-width:1200px){
+@media only screen and (min-width:1200px){
   /*Descktop styles here*/
 
   /* General Styles */
