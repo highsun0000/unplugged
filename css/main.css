@@ -603,6 +603,10 @@ background: #527158;
     flex-basis: 50%;
    }
 
+   .features .features-items {
+    align-items: flex-start;
+   }
+
    .features .features-item-description {
     width: 62%;
    }
